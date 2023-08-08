@@ -44,3 +44,6 @@ DELETE: http://localhost:8080/buckets/nome-bucket/objects/ com o seguinte body p
 
 ["nome-objeto-1.txt", "nome-objeto-2.txt"]
 PATCH: http://localhost:8080/buckets/nome-bucket/objects/object-name.txt/nome-bucket2 para movimentar um objeto entre dois buckets.
+
+
+OBS: É necessário criar na AWS acceskey e secretKey, elas devem ser criadas com permissão de AWS S3
