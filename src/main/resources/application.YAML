@@ -1,0 +1,9 @@
+// nao usado
+aws:
+  region: SA_EAST_1
+  bucketName: bucket-example-jeff
+  key: informeAquiASuaKey
+  secret: informeAquiASuaSecret
+file:
+  path: in
+  filename: upload-teste-s3.txt
